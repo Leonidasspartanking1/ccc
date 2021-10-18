@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+}
+.body {
+    background: rgb(163, 148, 8);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0px;   
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header{
+    background: rgb(255, 255, 255);
+    color: rgb(53, 108, 139);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header li{
+    height: inherit;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+h1 strong{
+    color: #01c4ff;
+}
+
+.header a {
+    color: rgb(9, 62, 78);
+    text-decoration: none;
+    height: inherit ;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.principal{
+    background-image: url(https://significadodesonar.com/wp-content/uploads/2017/10/Sonar-con-mar-embravecido.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+}
+.principal img{
+    width: 300px;
+
+}
+
+.principal-boton{
+width: 250px;
+    height: 40px;
+    background-color: #00d9ff00;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.logo img{
+    width: 90px;
+    
+
+
+}
+.menu{
+    height: inherit;
+    font-family: 'Nunito', sans-serif;
+}
+
+.secundario{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+margin-bottom: 10px;
+background-color: white;
+font-family: 'Nunito', sans-serif;
+
+}
+.secundario h3{
+    color: #99cc00;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aplicar{
+    height: 500px;
+    background: #0245ff94;
+    display: flex;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.aplicar-detalles img{
+    height: 90%;
+    
+}
+
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
+
+.cuarto{
+    background: palevioletred;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.container1{
+    display: flex;
+    background: #00fff2;
+    padding: 20px;
+    justify-content: space-around;
+    font-family: 'Nunito', sans-serif;
+    }
+    .col1-container1{
+        width: 400px;
+    }
+    .col2-container1{
+        width: 200px;
+    }
+    .col3-container1{
+        width: 300px;
+    }
+    .container2{
+        justify-content: center;   
+        display: flex;
+    background: #0245ff94;
+    font-family: 'Nunito', sans-serif;
+    }
+
+
+.row1contact0 img{
+  width: 35px;
+  height: 25px;
+}
+.row2-contacto img{
+    width: 35px;
+    height: 35px;
+  }
+  .row1contact0{
+display: flex;
+margin: 10px 0px;
+  }
+  .row1contact0 p{
+      padding-left: 10px;
+  }
+
+  .row2-contacto{
+    display: flex;
+    margin: 10px 0px;
+  }
+
+  .row2-contacto p{
+    padding-left: 10px;
+  }
